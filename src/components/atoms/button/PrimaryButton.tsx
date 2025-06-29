@@ -22,7 +22,7 @@ export const PrimaryButton: VFC<Props> = props => {
     <Button
       bg="teal.400"
       color="white"
-      isFullWidth={isFullWidth}
+      width="100%"
       disabled={disabled || isLoading}
       isLoading={isLoading}
       _hover={{ opacity: 0.8 }}
